@@ -4,19 +4,22 @@ function App() {
   return (
     <div className="bg-gradient-to-r from-[#7C808C] to-[#4E5158] text-white h-full w-full sm:py-10">
       <div className="container">
-        <div id="iphone-13" className='transform sm:translate-x-1/4 md:translate-x-2/4 lg:translate-x-full pt-5 sm:w-[428px] h-[926px] bg-[#1B202D] sm:rounded-[50px] shadow-3xl'>
+        <div id="iphone-13" className='transform sm:translate-x-1/4 md:translate-x-2/4 lg:translate-x-full pt-5 min-w-[420px] min-h-full sm:w-[428px] h-[926px] bg-[#1B202D] sm:rounded-[50px] shadow-3xl'>
           <div div className='flex m-5 items-center' >
             <img className=' left-6 top-16 w-11 h-11 rounded-full' src="https://t4.ftcdn.net/jpg/03/64/21/11/360_F_364211147_1qgLVxv1Tcq0Ohz3FawUfrtONzz8nq3e.jpg" alt="" />
             <h2 className='ml-5 font-poppins normal-case font-semibold text-xl '>Danny Hopkins</h2>
           </div >
-          <div id="main" className='container px-2 mx-3 mt-10'>
+          <div id="main" className='container px-2 sm:mx-3 mt-10'>
             <h6 className='py-5 text-center font-normal text-sm'>1 FEB 12:00</h6>
+
             <div id="text-send" className='text-send py-2'>
               <p className='genarel-comment-style rounded-3xl'>I commented on Figma, I want to add some fancy icons. Do you have any icon set?</p>
             </div>
+
             <div id="text-reply" className='text-reply'>
               <p className='genarel-comment-style'>I am in a process of designing some. When do you need them?</p>
             </div>
+
             <div id="text-send" className='py-5 text-send w-1/3 mt-3'>
               <p className='genarel-comment-style rounded-3xl'>Next month?</p>
             </div>
