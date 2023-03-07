@@ -27,7 +27,7 @@ function App() {
               <p className='genarel-comment-style'>I am almost finish. Please give me your email, I will ZIP them and send you as son as im finish.</p>
             </div>
 
-            <div id="text-reply" className='text-reply w-12 float-right mr-1'>
+            <div id="text-reply" className='text-reply w-12 float-right sm:mr:6 mr-1'>
               <p className='genarel-comment-style'>?</p>
             </div>
 
@@ -37,7 +37,7 @@ function App() {
               <p className='genarel-comment-style rounded-3xl'>maciej.kowalski@email.com</p>
             </div>
 
-            <div id="text-reply" className='text-reply w-12 float-right mr-1'>
+            <div id="text-reply" className='text-reply w-12 float-right sm:mr:6 mr-1'>
               <p className='genarel-comment-style text-[#EE9547]'>👍🏻</p>
             </div>
 
