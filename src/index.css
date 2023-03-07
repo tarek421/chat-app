@@ -7,10 +7,10 @@
     @apply font-sans font-normal text-sm flex items-center text-white leading-5;
   }
   .text-send {
-    @apply bg-[#373E4E] w-3/4 rounded-2xl px-5 py-2;
+    @apply bg-[#373E4E] w-3/4 rounded-2xl px-5 py-4;
   }
   .text-reply {
-    @apply bg-[#7A8194] rounded-2xl px-5 py-2 w-3/4 mt-3 ml-20;
+    @apply bg-[#7A8194] rounded-2xl px-5 py-4 w-3/4 mt-3 ml-20;
   }
 }
 
