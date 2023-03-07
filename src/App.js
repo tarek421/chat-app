@@ -2,9 +2,9 @@ import './App.css';
 
 function App() {
   return (
-    <div className="bg-gradient-to-r from-[#7C808C] to-[#4E5158] text-white h-full w-full py-10">
+    <div className="bg-gradient-to-r from-[#7C808C] to-[#4E5158] text-white h-full w-full sm:py-10">
       <div className="container">
-        <div id="iphone-13" className='sm:transform sm:translate-x-full pt-5 w-[428px] h-[926px] left-[517px] top-[129px] bg-[#1B202D] rounded-[50px] shadow-3xl'>
+        <div id="iphone-13" className='sm:transform sm:translate-x-full pt-5 sm:w-[428px] h-[926px] bg-[#1B202D] sm:rounded-[50px] shadow-3xl'>
           <div div className='flex m-5 items-center' >
             <img className=' left-6 top-16 w-11 h-11 rounded-full' src="https://t4.ftcdn.net/jpg/03/64/21/11/360_F_364211147_1qgLVxv1Tcq0Ohz3FawUfrtONzz8nq3e.jpg" alt="" />
             <h2 className='ml-5 font-poppins normal-case font-semibold text-xl '>Danny Hopkins</h2>
