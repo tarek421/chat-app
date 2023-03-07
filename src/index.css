@@ -1,3 +1,19 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+  .genarel-comment-style {
+    @apply font-sans font-normal text-sm flex items-center text-white leading-5;
+  }
+  .text-send {
+    @apply bg-[#373E4E] w-3/4 rounded-2xl px-5 py-2;
+  }
+  .text-reply {
+    @apply bg-[#7A8194] rounded-2xl px-5 py-2 w-3/4 mt-3 ml-20;
+  }
+}
+
 body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
