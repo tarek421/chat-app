@@ -7,13 +7,16 @@
     @apply font-sans font-normal text-sm flex items-center text-white leading-5;
   }
   .text-send {
-    @apply bg-[#373E4E] w-3/4 rounded-2xl px-5 py-4;
+    @apply bg-[#373E4E] sm:w-3/4 w-4/5 rounded-2xl px-5 py-4;
   }
   .text-reply {
-    @apply bg-[#7A8194] rounded-2xl px-5 py-4 w-3/4 mt-3 ml-20;
+    @apply bg-[#7A8194] rounded-2xl px-5 py-4 sm:w-3/4 w-4/5 mt-3 ml-16 sm:ml-20;
   }
   .input-style {
     @apply placeholder:italic placeholder:text-slate-400 block bg-[#3D4354] w-[96%] sm:w-[376px] h-[46px] rounded-full focus:outline-none focus:border-sky-500 focus:ring-sky-500 focus:ring-1 sm:text-sm py-2 pl-12 pr-3;
+  }
+  .phone-layout {
+    @apply transform sm:translate-x-1/4 md:translate-x-2/4 lg:translate-x-full pt-5 min-w-[320px] min-h-full sm:w-[428px] bg-[#1B202D] sm:rounded-[50px] shadow-3xl;
   }
 }
 
