@@ -52,7 +52,7 @@ function App() {
                 <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor" class="bi bi-send" viewBox="0 0 16 16" id="IconChangeColor" transform="rotate(45)"> <path d="M15.854.146a.5.5 0 0 1 .11.54l-5.819 14.547a.75.75 0 0 1-1.329.124l-3.178-4.995L.643 7.184a.75.75 0 0 1 .124-1.33L15.314.037a.5.5 0 0 1 .54.11ZM6.636 10.07l2.761 4.338L14.13 2.576 6.636 10.07Zm6.787-8.201L1.591 6.602l4.339 2.76 7.494-7.493Z" id="mainIconPathAttribute" fill="#ffffff"></path> </svg>
               </span>
 
-              <input class="placeholder:italic placeholder:text-slate-400 block bg-[#3D4354] w-[96%] sm:w-[376px] h-[46px] rounded-full mt-20 focus:outline-none focus:border-sky-500 focus:ring-sky-500 focus:ring-1 sm:text-sm py-2 pl-12 pr-3" placeholder="Message" type="text" name="search" />
+              <input class="placeholder:italic placeholder:text-slate-400 block bg-[#3D4354] w-[96%] sm:w-[376px] h-[46px] rounded-full mt-16 focus:outline-none focus:border-sky-500 focus:ring-sky-500 focus:ring-1 sm:text-sm py-2 pl-12 pr-3" placeholder="Message" type="text" name="search" />
             </label>
           </div>
         </div >
